@@ -10,10 +10,12 @@ noun_list=["hamburger", "giraffes", "computer", y]
 
 proper_noun_list=["WalMart", "Jeff from the Wiggles", "Steve Urkel", z]
 
-"The " + noun_list[Math.floor(Math.random()*noun_list.length)]+ " Not Taken by " 
+let madlibs= "The " + noun_list[Math.floor(Math.random()*noun_list.length)]+ " Not Taken by " 
   +proper_noun_list[Math.floor(Math.random()*proper_noun_list.length)]+ ": Two " 
   +noun_list[Math.floor(Math.random()*noun_list.length)] + " diverged in a " 
   +adj_list[Math.floor(Math.random()*adj_list.length)] + " " + noun_list[Math.floor(Math.random()*noun_list.length)] + 
   " , and " + proper_noun_list[Math.floor(Math.random()*proper_noun_list.length)] + " - " 
   + proper_noun_list[Math.floor(Math.random()*proper_noun_list.length)] 
   + " took the one less traveled by, and that has made all the difference."
+
+document.write(madlibs)
