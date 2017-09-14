@@ -18,4 +18,6 @@ let madlibs= "The " + noun_list[Math.floor(Math.random()*noun_list.length)]+ " N
   + proper_noun_list[Math.floor(Math.random()*proper_noun_list.length)] 
   + " took the one less traveled by, and that has made all the difference."
 
+madlibs.fontsize(5)
+
 document.write(madlibs)
